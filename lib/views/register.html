@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>Chitter</header>
+<head>
+  <meta charset="UTF-8">
+  <div class="home">
+    <link rel="stylesheet" type="text/css" href="/theme.css">
+    <nav class="navbar" role="navigation">
+      <ul class="nav-navbar">
+        <li><a href="/">Home</a></li>
+        <li><a href="/peep">Peep</a></li>
+        <li><a href="/login">Login</a></li>
+        <li  class="active"><a href="/register">Register</a></li>
+        <li><a href="/logout">Logout</a></li>
+      </ul>
+    </nav>
+  </div>
+</head>
+<body>
+  <div class="jumbotron">
+    <p>Register here</p>
+    <form action="/register" method="POST" class="form-horizontal">
+          <input type="text" name="name" placeholder="Name"><br>
+          <input type="text" email="email_r" name="email" placeholder="Email"><br>
+          <input type="password" password="password_r" name="password" placeholder="Password"><br>
+          <input type="submit" action = "login" name="Submit" value="Enter" class="btn"><br>
+          <a href="login">Are you already registered? Log in</a>
+     </form>
+</div>
+</body>
+</html>

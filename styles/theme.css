@@ -1,0 +1,44 @@
+/* NAV BAR STYLING - START */
+header {
+  background-color: #6BEFFF;
+  font-size: 30px;
+}
+
+body {
+  background-color: #A5F5FF;
+  text-align: center;
+}
+
+nav {
+  background-color: #6BEFFF;
+}
+
+ul {
+  list-style-type: none;
+  height: 70px;
+}
+
+li {
+  float: left;
+  font-size: 18px;
+  border: 2px;
+}
+li:last-child {
+
+}
+
+a {
+  display: block;
+  margin: 10px;
+  padding: 8px;
+  background-color: #6BEFFF;
+}
+
+p {
+  font-size: 20px;
+}
+
+li a:hover {
+  background-color: #A5F5FF;
+}
+/* NAV BAR STYLING - END */
